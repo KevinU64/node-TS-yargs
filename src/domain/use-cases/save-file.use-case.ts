@@ -30,7 +30,7 @@ export class SaveFile implements SaveFileUseCase {
             // console.log('File created!');
             return true;
         } catch ( error ) {
-            console.log( error )
+            // console.log( error ); // winston
             return false;
         }
     }
